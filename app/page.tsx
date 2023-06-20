@@ -1,8 +1,8 @@
 import { AboutMe } from "@/components/about-me";
 import { BlogLink } from "@/components/blog-link";
 import { Divider } from "@/components/divier";
-import { LanguageIcon } from "@/components/language-icon";
 import { Title } from "@/components/title";
+import { LanguageAndTools } from "@/components/languages-and-tools";
 import Image from "next/image";
 
 export default function Home() {
@@ -82,19 +82,12 @@ export default function Home() {
           </h2>
         </div>
         <div className="mt-4">
-          <BlogLink></BlogLink>
+          <BlogLink />
         </div>
         <div className="mt-3">
           <AboutMe />
         </div>
-        <div className="mt-4">
-          <h2>🌈 Languages and Tools:</h2>
-        </div>
-        <div className="mt-4 flex flex-wrap">
-          {languages.map(({ name, alt }) => (
-            <LanguageIcon key={name} name={name} alt={alt} />
-          ))}
-        </div>
+        <LanguageAndTools languages={languages} />
         <div className="mt-4">
           <h2 className="text-lg">
             <strong>🌱 My github stats</strong>

@@ -15,7 +15,7 @@ export const AboutMe: React.FC = () => {
         .
       </li>
       <li>
-        ✍️ I wrote dev articles on My&ensp;
+        ✍️ I wrote dev articles on &ensp;
         <a className="text-blue-500" href="https://damingerdai.github.io">
           My Blog
         </a>

@@ -78,7 +78,7 @@ export default function Home() {
         <Divider />
         <div className="mt-4">
           <h2 className="leading-normal text-[14px]">
-            I am damingerdai, an full stack developer from China 🚀.
+            I am damingerdai, a full stack developer from China 🚀.
           </h2>
         </div>
         <div className="mt-4">

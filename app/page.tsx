@@ -1,4 +1,5 @@
 import { AboutMe } from "@/components/about-me";
+import { BlogLink } from "@/components/blog-link";
 import { Divider } from "@/components/divier";
 import { LanguageIcon } from "@/components/language-icon";
 import { Title } from "@/components/title";
@@ -81,13 +82,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="mt-4">
-          <a
-            className="bg-green-500 text-white p-1 text-[12px]"
-            href="https://damingerdai.github.io/"
-            target="_blank"
-          >
-            damingerdai&acute;s blog
-          </a>
+          <BlogLink></BlogLink>
         </div>
         <div className="mt-3">
           <AboutMe />

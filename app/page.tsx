@@ -49,7 +49,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex min-h-screen items-center flex-col px-24 pt-4">
+    <main className="flex min-h-screen items-center flex-col px-2 pt-4 md:px-24">
       <div className="max-w-lg">
         <div className="mb-4 text-sm">
           <a

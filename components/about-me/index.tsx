@@ -5,9 +5,9 @@ export const AboutMe: React.FC = () => {
     <ul role="list" className="text-sm list-inside list-disc pl-5 space-y-3">
       <li>🖥 I&acute;m fullstack developer based in Shanghai, China.</li>
       <li>
-        💼 I was working at&ensp;
+        💼 I was working at
         <a
-          className="text-blue-500"
+          className="text-blue-500 pl-1"
           href="https://www.linkedin.com/company/pwc-ac-shanghai"
         >
           PwC Acceleration Center Shanghai
@@ -15,8 +15,8 @@ export const AboutMe: React.FC = () => {
         .
       </li>
       <li>
-        ✍️ I wrote dev articles on &ensp;
-        <a className="text-blue-500" href="https://damingerdai.github.io">
+        ✍️ I wrote dev articles on
+        <a className="text-blue-500 pl-1" href="https://damingerdai.github.io">
           My Blog
         </a>
         .

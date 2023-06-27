@@ -4,6 +4,7 @@ import { Divider } from "@/components/divier";
 import { Title } from "@/components/title";
 import { LanguageAndTools } from "@/components/languages-and-tools";
 import Image from "next/image";
+import { MyGithubStats } from "@/components/my-github-stats";
 
 export default function Home() {
   const languages = [
@@ -88,19 +89,7 @@ export default function Home() {
           <AboutMe />
         </div>
         <LanguageAndTools languages={languages} />
-        <div className="mt-4">
-          <h2 className="text-lg">
-            <strong>🌱 My github stats</strong>
-          </h2>
-        </div>
-        <Divider className="mt-2" />
-        <div className="mt-3">
-          <img
-            className="w-full"
-            src="https://github-readme-stats.damingerdai.com/api?username=damingerdai"
-            alt="damingerdai's github stat"
-          />
-        </div>
+        <MyGithubStats />
         <div className="mt-4">
           <h2 className="text-lg">
             <strong>📫 My most used languages</strong>

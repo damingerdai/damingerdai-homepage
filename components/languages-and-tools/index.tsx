@@ -11,7 +11,9 @@ export const LanguageAndTools: React.FC<LanguageAndToolsProps> = ({
   return (
     <>
       <div className="mt-4">
-        <h2>🌈 Languages and Tools:</h2>
+        <a href="#languages-and-tools">
+          <h2 id="languages-and-tools">🌈 Languages and Tools:</h2>
+        </a>
       </div>
       <div className="mt-4 flex flex-wrap">
         {languages.map(({ name, alt }) => (

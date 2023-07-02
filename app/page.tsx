@@ -6,6 +6,7 @@ import { LanguageAndTools } from "@/components/languages-and-tools";
 import Image from "next/image";
 import { MyGithubStats } from "@/components/my-github-stats";
 import { MyMostUsedLanguages } from "@/components/my-most-used-languages";
+import { MyOpenSource } from "@/components/my-open-source";
 
 export default function Home() {
   const languages = [
@@ -92,29 +93,7 @@ export default function Home() {
         <LanguageAndTools languages={languages} />
         <MyGithubStats />
         <MyMostUsedLanguages />
-        <div className="mt-4">
-          <h2 className="text-lg">
-            <strong>💬 My open source</strong>
-          </h2>
-        </div>
-        <Divider className="mt-2" />
-        <div className="mt-3 flex flex-wrap">
-          <img
-            className="w-full"
-            src="https://github-readme-stats.damingerdai.com/api/pin/?username=damingerdai&repo=hoteler"
-            alt="hoteler"
-          />
-          <img
-            className="w-full"
-            src="https://github-readme-stats.damingerdai.com/api/pin/?username=damingerdai&repo=health-master"
-            alt="health-master"
-          />
-          <img
-            className="w-full"
-            src="https://github-readme-stats.damingerdai.com/api/pin/?username=damingerdai&repo=dotfile"
-            alt="damingerdai dotfile"
-          />
-        </div>
+        <MyOpenSource />
       </div>
     </main>
   );

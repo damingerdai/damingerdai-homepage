@@ -5,6 +5,7 @@ import { Title } from "@/components/title";
 import { LanguageAndTools } from "@/components/languages-and-tools";
 import Image from "next/image";
 import { MyGithubStats } from "@/components/my-github-stats";
+import { MyMostUsedLanguages } from "@/components/my-most-used-languages";
 
 export default function Home() {
   const languages = [
@@ -90,19 +91,7 @@ export default function Home() {
         </div>
         <LanguageAndTools languages={languages} />
         <MyGithubStats />
-        <div className="mt-4">
-          <h2 className="text-lg">
-            <strong>📫 My most used languages</strong>
-          </h2>
-        </div>
-        <Divider className="mt-2" />
-        <div className="mt-3">
-          <img
-            className="w-full"
-            src="https://github-readme-stats.damingerdai.com/api/top-langs?username=damingerdai&show_icons=true&count_private=true&theme=gotham&layout=compact"
-            alt="my most used languages"
-          />
-        </div>
+        <MyMostUsedLanguages />
         <div className="mt-4">
           <h2 className="text-lg">
             <strong>💬 My open source</strong>

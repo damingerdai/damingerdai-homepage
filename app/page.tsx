@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen items-center flex-col px-4 pt-4 md:px-24">
-      <div className="max-w-lg">
+      <div className="max-w-lg pb-4">
         <div className="mb-4 text-sm">
           <a
             className="hover:text-blue-500"

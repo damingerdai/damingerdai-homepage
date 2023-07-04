@@ -29,7 +29,7 @@ export const MyOpenSource: React.FC = () => {
         </a>
       </div>
       <Divider className="mt-2" />
-      <div className="mt-3 flex flex-wrap">
+      <div className="mt-4 flex flex-wrap">
         {images.map((img, i) => <img key={img.alt} className={cls('w-full',  i > 0 ? 'mt-4' : '')} src={img.url} alt={img.alt}/>)}
       </div>
     </>

@@ -87,7 +87,7 @@ export default function Home() {
         <div className="mt-4">
           <BlogLink />
         </div>
-        <div className="mt-3">
+        <div className="mt-4">
           <AboutMe />
         </div>
         <LanguageAndTools languages={languages} />

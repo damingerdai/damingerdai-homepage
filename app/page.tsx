@@ -67,11 +67,13 @@ export default function Home() {
         </div>
         <div className="mb-4">
           <Image
-            src="/damingerdai.jpg"
+            src="/damingerdai.webp"
             height={600}
             width={500}
             sizes="100%"
             alt={"damingerdai"}
+            placeholder="blur"
+            blurDataURL="/damingerdai.webp"
           />
         </div>
         <Divider />

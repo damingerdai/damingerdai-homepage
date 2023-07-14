@@ -3,7 +3,7 @@ import * as React from "react";
 export const AboutMe: React.FC = () => {
   return (
     <ul role="list" className="text-sm list-inside list-disc pl-5 space-y-3">
-      <li>🖥 I&acute;m fullstack developer based in Shanghai, China.</li>
+      <li>🖥 I&acute;m a full-stack developer based in Shanghai, China.</li>
       <li>
         💼 I was working at
         <a
@@ -22,7 +22,7 @@ export const AboutMe: React.FC = () => {
         .
       </li>
       <li>
-        🧐 I&acute;m Interested in full stack, including front, backend and
+        🧐 I&acute;m interested in full stack, including front, backend and
         devops.
       </li>
     </ul>

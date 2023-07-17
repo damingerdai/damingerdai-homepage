@@ -2,13 +2,50 @@ import * as React from "react";
 import { LanguageIcon } from "@/components/language-icon";
 import { Divider } from "../divier";
 
-interface LanguageAndToolsProps {
-  languages: Array<Record<"name" | "alt", string>>;
-}
+export const LanguageAndTools: React.FC = () => {
+  const languages = [
+    {
+      name: "angular",
+      alt: "angular",
+    },
+    {
+      name: "react",
+      alt: "react",
+    },
+    {
+      name: "golang",
+      alt: "golang",
+    },
+    {
+      name: "javascript",
+      alt: "javascript",
+    },
+    {
+      name: "java",
+      alt: "java",
+    },
+    {
+      name: "springboot",
+      alt: "sprint boot",
+    },
+    {
+      name: "nodejs",
+      alt: "nodejs",
+    },
+    {
+      name: "docker",
+      alt: "docker",
+    },
+    {
+      name: "kubernetes",
+      alt: "kubernetes",
+    },
+    {
+      name: "nextjs",
+      alt: "nextjs",
+    },
+  ];
 
-export const LanguageAndTools: React.FC<LanguageAndToolsProps> = ({
-  languages,
-}) => {
   return (
     <>
       <div className="mt-4">

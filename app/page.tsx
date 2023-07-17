@@ -9,48 +9,6 @@ import { MyMostUsedLanguages } from "@/components/my-most-used-languages";
 import { MyOpenSource } from "@/components/my-open-source";
 
 export default function Home() {
-  const languages = [
-    {
-      name: "angular",
-      alt: "angular",
-    },
-    {
-      name: "react",
-      alt: "react",
-    },
-    {
-      name: "golang",
-      alt: "golang",
-    },
-    {
-      name: "javascript",
-      alt: "javascript",
-    },
-    {
-      name: "java",
-      alt: "java",
-    },
-    {
-      name: "springboot",
-      alt: "sprint boot",
-    },
-    {
-      name: "nodejs",
-      alt: "nodejs",
-    },
-    {
-      name: "docker",
-      alt: "docker",
-    },
-    {
-      name: "kubernetes",
-      alt: "kubernetes",
-    },
-    {
-      name: "nextjs",
-      alt: "nextjs",
-    },
-  ];
 
   return (
     <main className="flex min-h-screen items-center flex-col px-4 pt-4 md:px-24">
@@ -92,7 +50,7 @@ export default function Home() {
         <div className="mt-4">
           <AboutMe />
         </div>
-        <LanguageAndTools languages={languages} />
+        <LanguageAndTools />
         <MyGithubStats />
         <MyMostUsedLanguages />
         <MyOpenSource />

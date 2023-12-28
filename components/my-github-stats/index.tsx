@@ -1,8 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import * as React from "react";
 import { Divider } from "../divier";
+import { MyGithubStatsImg } from "./img";
 
 export const MyGithubStats: React.FC = () => {
+  
+  
   return (
     <>
       <div className="mt-4">
@@ -14,11 +17,7 @@ export const MyGithubStats: React.FC = () => {
       </div>
       <Divider className="mt-2" />
       <div className="mt-4">
-        <img
-          className="w-full"
-          src="https://github-readme-stats.damingerdai.com/api?username=damingerdai"
-          alt="damingerdai's github stat"
-        />
+        <MyGithubStatsImg />
       </div>
     </>
   );

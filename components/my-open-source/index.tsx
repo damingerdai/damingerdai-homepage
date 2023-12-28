@@ -1,23 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import * as React from "react";
-import cls from 'classnames';
 import { Divider } from "../divier";
+import { MyOpenSourceImgs } from "./img";
 
 export const MyOpenSource: React.FC = () => {
-  const images = [
-    {
-        url: 'https://github-readme-stats.damingerdai.com/api/pin/?username=damingerdai&repo=hoteler',
-        alt: 'hoteler',
-    },
-    {
-        url: 'https://github-readme-stats.damingerdai.com/api/pin/?username=damingerdai&repo=health-master',
-        alt: 'health-master',
-    },
-    {
-        url: 'https://github-readme-stats.damingerdai.com/api/pin/?username=damingerdai&repo=dotfile',
-        alt: 'damingerdai-dotfile',
-    }
-  ]
 
   return (
     <>
@@ -30,7 +16,7 @@ export const MyOpenSource: React.FC = () => {
       </div>
       <Divider className="mt-2" />
       <div className="mt-4 flex flex-wrap">
-        {images.map((img, i) => <img key={img.alt} className={cls('w-full',  i > 0 ? 'mt-4' : '')} src={img.url} alt={img.alt}/>)}
+        <MyOpenSourceImgs/>
       </div>
     </>
   );

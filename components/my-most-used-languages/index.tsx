@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import * as React from "react";
 import { Divider } from "../divier";
+import { MyMostUsedLanguagesImg } from "./img";
 
 export const MyMostUsedLanguages: React.FC = () => {
 
@@ -15,11 +16,7 @@ export const MyMostUsedLanguages: React.FC = () => {
       </div>
       <Divider className="mt-2" />
       <div className="mt-4">
-        <img
-          className="w-full"
-          src="https://github-readme-stats.damingerdai.com/api/top-langs?username=damingerdai&show_icons=true&count_private=true&theme=gotham&layout=compact"
-          alt="my most used languages"
-        />
+        <MyMostUsedLanguagesImg />
       </div>
     </>
   );

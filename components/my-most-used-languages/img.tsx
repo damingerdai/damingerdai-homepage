@@ -17,7 +17,7 @@ export const MyMostUsedLanguagesImg = () => {
 
     return <img
         className="w-full"
-        src="https://github-readme-stats.damingerdai.com/api/top-langs?username=damingerdai&show_icons=true&count_private=true&theme=gotham&layout=compact"
+        src={url}
         alt="my most used languages"
     />
 }

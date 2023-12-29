@@ -26,7 +26,7 @@ export default function Home() {
         <div className="mb-4">
           <Image
             src="/damingerdai.webp"
-            height={600}
+            height={333}
             width={500}
             sizes="100%"
             alt={"damingerdai"}

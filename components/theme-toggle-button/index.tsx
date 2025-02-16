@@ -16,6 +16,7 @@ export const ThemeToggleButton: React.FC = () => {
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 20, opacity: 0 }}
         transition={{ duration: 0.2 }}
+        suppressHydrationWarning
       >
         <button
           aria-label="toggle theme"

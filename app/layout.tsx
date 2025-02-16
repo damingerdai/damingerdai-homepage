@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Damingerdai Homepage",
-  description: "damingerdai homepage"
+  description: "damingerdai homepage",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="light" style={{ colorScheme:"light" }}>
+    <html lang="en">
       <body className={inter.className}>
         <Providers>
           <Navbar />

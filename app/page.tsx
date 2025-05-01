@@ -19,7 +19,14 @@ export default function Home() {
         >
           damingerdai
         </a>
-        /README.md
+        /
+        <a
+          className="hover:text-blue-500"
+          href="https://github.com/damingerdai/damingerdai"
+          target="_blank"
+        >
+          README.md
+        </a>
       </div>
       <div className="mb-4">
         <Image

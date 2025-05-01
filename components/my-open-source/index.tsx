@@ -1,10 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import * as React from "react";
 import { Divider } from "../divier";
 import { MyOpenSourceImgs } from "./img";
 
 export const MyOpenSource: React.FC = () => {
-
   return (
     <>
       <div className="mt-4">
@@ -16,7 +14,7 @@ export const MyOpenSource: React.FC = () => {
       </div>
       <Divider className="mt-2" />
       <div className="mt-4 flex flex-wrap">
-        <MyOpenSourceImgs/>
+        <MyOpenSourceImgs />
       </div>
     </>
   );

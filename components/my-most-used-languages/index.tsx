@@ -1,10 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import * as React from "react";
 import { Divider } from "../divier";
 import { MyMostUsedLanguagesImg } from "./img";
 
 export const MyMostUsedLanguages: React.FC = () => {
-
   return (
     <>
       <div className="mt-4">
